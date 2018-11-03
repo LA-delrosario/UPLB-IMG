@@ -1,0 +1,687 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Economica', sans-serif;
+}
+.LA-logo:hover{
+	color: #df263b;
+}
+
+.socials-footer:hover{
+	padding: 1%;
+	border-bottom: 1px solid #df263b;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {  
+  border-color: #df263b;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(223, 38, 59, 0.6);
+  outline: 0 none;
+}
+
+
+/*index.html*/
+.index-body{
+	background-image: url(../images/contact/index-lg.png);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-side{
+	height: 100vh;
+	color: #CD2945;
+}
+
+.welcome-content{
+	margin-top: 20%;
+	margin-left: 15%;
+}
+
+.jumbotron{
+	background-color: #f1be3e;			/*mustard yellow*/
+}
+
+.welcome-content .jumbotron p{
+	color: #231F20;
+}
+
+
+.landing-image{
+	margin-top: 10%;
+	height: 90%;
+}
+
+.landing-image-mobile{
+	display: none;
+}
+
+/*home.html*/
+
+.home-main{
+	height: 92vh;
+	background-color: #f1be3e;
+}
+.home-footer{
+	background-color: #f1be3e;
+}
+.logo-menu{
+	width: 60px;
+}
+
+.logo-menu-text{
+	width: 100px;
+}
+
+.navbar{
+	width: 100%;
+	background-color: #fdfdfb; /*off white*/
+}
+
+.home-content{
+	width: 100%;
+	
+	background-color: #f1be3e; /*mustard yellow*/
+}
+
+.carousel-item{
+	height: 400px;
+}
+
+.car-content{
+	text-align: center;
+	margin-top: 30%;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #FBF7F6;	/*gray*/
+   /* box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5); */   
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #D22647;	/*deep red*/
+}
+
+.carousel-indicators{
+	margin-top: 100px;
+	/*bottom: -100px;*/
+}
+
+.home-text{
+	margin-top: 30%;
+}
+
+.home-text h1{
+	font-size: 100px;
+	font-family: 'Advent Pro', sans-serif;
+	color: #D22647;
+}
+
+.home-text h2{
+	font-size: 50px;
+	font-family: 'Advent Pro', sans-serif;
+}
+
+.home-text p{
+	text-align: justify;
+
+}
+
+.nav-item{
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 20px;
+}
+
+.socials{
+	width: 40px;
+	margin: 12px;
+}
+
+.nav-item a{
+	color: #241E20;
+}
+.nav-item:hover{
+	border-bottom: 3px solid #D22647;
+	color: white;
+}
+
+.active:hover{
+	border-bottom: 0px;
+	color: white;
+}
+
+.nav-item .nav-link:hover{
+	color: #f1be3e;
+}
+
+.active{
+	font-weight: bold;
+	border-bottom: 3px solid #D22647;
+}
+/*end of home.html*/
+
+/*contact-us.html*/
+.header-section{
+	background-color: #f1be3e;
+}
+
+.contact-image{
+	padding: 10px;
+	float: right;	
+}
+
+.form-and-maps{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+label{ 
+	color: #D22647;
+	font-weight: bold;
+}
+
+.header-contact-text h1{
+	color: #D22647;
+}
+
+.header-contact-text{
+	margin-top: 10%;
+}
+
+.btn-danger{
+	background-color: #D22647;
+}
+
+footer{
+	width: 100%;
+	background-color: #676465;
+	text-align: justify;
+	/*text-align-last: left;*/
+	color: #e1e1e1;
+}
+a{
+	color: #fbf7f5;
+}
+ul{
+	list-style: none;
+}
+a:hover{
+	color:#df263b;
+}
+.last-footer{
+	width: 100%;
+	border-top: 2px solid #e1e1e1;
+	background-color: #f1be3e;
+}
+
+.LA-logo{
+	width: 30px;
+}
+
+.la-section, .copyright-section{
+	padding-top: 5px;
+
+}
+
+.copyright-section h6{
+	font-weight: bold;
+}
+
+.socials-footer{
+	float: right;
+	width: 20px;
+	margin: 10px;
+}
+
+.socials-header{
+	float: right;
+	font-size: 20px;
+}
+
+li {
+	text-decoration: none;
+	color: white;
+}
+.la-section a{
+	color: #fdfdfb;
+}
+.footer-col{
+	padding: 10px;
+}
+
+.footer-col-1{
+	border-left: 2px solid #fbf7f5;
+	padding-left: 10px;
+}
+
+.copyright-section{
+	color: #fdfdfb;
+
+}
+/*end of contact-us.html*/
+
+/*start of about-us.html*/
+.main-background{
+	background-image: url(../images/background-lg.png);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us{
+	width: 100%;
+	/*background-color: #fdfdfb;*/
+	text-align: justify;
+	padding-top: 2%;
+}
+
+.mission-vision{
+	width: 100%;
+	/*background-color: #fdfdfb;*/
+	text-align: justify;
+	padding-top: 20px;
+	
+}
+
+.mission-vision h1{
+	text-align: center;
+	color: #df263b;
+}
+/*end of about-us.html*/
+
+/*start of what-we-do.html*/
+.background-solid{
+	background-color: #f1be3e;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+ 
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #DF263B;
+  border-radius: 50%;
+}
+
+.what-anchor:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.text-sm{
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*end of what-we-do.html*/
+/*start of gallery*/
+.images{
+	height: 250px;
+	padding: 10px;
+}
+
+.card{
+	border-color: #95efe5;
+	margin-bottom: 10px;
+	background-color:#fbf7f5;
+	color: #676465;
+}
+
+.gallery-header-text{
+	color:#676465;
+}
+
+.card:hover{
+	border-color: #676465;
+	background-color: #95efe5;
+	color: #df263b;
+}
+
+.images{
+	padding: 0px;
+}
+
+.img-circle{
+	border-radius: 50%;
+	padding: 1%;
+}
+
+/*end of gallery*/
+
+/*start of what-we-do.html*/
+.what-we-do-main{
+	width: 100%;
+	padding: 3%;
+}
+
+.what-we-do-main:hover{
+	transform: scale(1.05);
+}
+
+/*end of what-we-do.html*/
+
+
+
+/*start of events.html*/
+.header-section-events{
+	width: 100%;
+	background-color: #f1be3e;
+	text-align: center;
+}
+
+.events-header-image{
+	margin: 0 auto;
+	margin-top: -10%;
+	margin-bottom: 2%;
+	width: 820px;
+}
+
+.red{
+	color:#df263b;
+}
+
+.pagination>li>a, .pagination>li>span { 
+	border-radius: 30% !important;
+	margin: 0 5px;
+	background-color: #f1be3e;
+}
+
+.pagination	{
+	margin: 1%;
+}
+
+/*end of events.html*/
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 414px) {
+/*start of index.html*/
+	.welcome-content{
+		margin-top: 5%;
+		margin-left: 2%;
+	}
+
+	.index-body{
+		background-image: url(../images/contact/index-sm.png);
+		background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	.jumbotron{
+		text-align: center;
+		text-align-last: center;
+		padding: 0;
+	}
+	.jumbotron h1{
+		font-size:20px;
+	}
+
+	.jumbotron p{
+		font-size: 10px;
+	}
+
+	.my-4{
+		margin: -10px;
+	}
+/*end of index.html*/
+
+/*start of footer*/
+	.footer-col h4{
+		font-size: 12px;
+	}
+
+	.footer-col p,a{
+		font-size: 8px;
+	}
+
+	.copyright-section h5{
+		font-size: 8px;
+	}
+
+	.LA-logo{
+		width: 10px;
+		margin: 5px;
+	}
+
+	.btn{
+		font-size: 10px;
+		padding: 3px;
+	}
+
+	.form-control{
+		width: 100%;
+		height: 20px;
+		font-size: 8px;
+		padding: 0px;
+	}
+	.socials-footer{
+		width: 10px;
+		margin-top: 12px;
+		margin-left: 5px;
+	}
+/*end of footer*/
+/*start of home.html*/
+	.home-text{
+		margin-top: 1%;
+	}
+	.home-content{
+		width: 100%;
+		height: 50%;
+		background-color: #f1be3e; /*cerulean*/
+	}
+	.car-content{
+		margin-top: 20%;
+	}
+	.carousel-item{
+		height: 200px;
+	}
+	.carousel-indicators{
+		bottom: 0px;
+	}
+
+	.home-text, .home-footer{
+		text-align: center;
+		text-align-last: center;
+	}
+
+	.home-text h1{
+		font-size: 40px;
+	}
+	.home-text h2{
+		font-size: 30px;
+
+	}
+/*end of home.html*/
+
+/*start of about-us.html*/
+	.main-background{
+		background-image: url(../images/background-sm.png);
+		background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+
+	.header-contact-text{
+		text-align: center;
+	}
+
+	.img-team{
+		width: 50px;
+		height: 50px;
+	}
+/*end of about-us.html*/
+
+/*start of what-we-do.html*/
+	.img-hide{
+		display: none;
+	}
+/*end of what to do.html*/
+
+/*start of events.html*/
+	.event-content h1{
+		text-align: center;
+	}
+	.event-content p{
+		font-size: 10px;
+	}
+
+/*end of events.html*/
+
+/*start of gallery.html*/
+	.img-mobile{
+		width: 100px;
+		height: 100px;
+		text-align: center;
+	}
+/*end of gallery.html*/
+}
+
+
+.disable-hover{
+	pointer-events: none;
+	display: inline-block;
+}
+	
+
+/* Tablet Styles */
+@media only screen and (min-width: 415px) and (max-width: 960px) {
+/*start of index.html*/
+	.welcome-content{
+		margin-top: 20%;
+		margin-left: 2%;
+	}
+
+	.index-body{
+		background-image: url(../images/contact/index-md.png);
+		background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+
+/*end of index.html*/
+	
+/* start of footer*/
+	.footer-col h4{
+		font-size: 18px;
+	}
+
+	.footer-col p,a{
+		font-size: 12px;
+	}
+
+	.copyright-section h5{
+		font-size: 14px;
+	}
+/*end of footer*/
+
+/*start of home.html*/
+	.home-text{
+		margin-top: 1%;
+	}
+	.home-content{
+		width: 100%;
+		height: 50%;
+		background-color: #f1be3e; /*cerulean*/
+
+	}
+	.car-content{
+		text-align: center;
+		margin-top: 10%;
+	}
+	.carousel-item{
+		height: 500px;
+	}
+	.carousel-indicators{
+		bottom: 0px;
+	}
+
+	.home-text, .home-footer{
+		text-align: center;
+	}
+	.home-text p{
+		text-align-last: center
+	}
+/*end of home.html*/
+
+/*start of what-we-do.html*/
+	.fill-row{
+		padding-bottom: 10%;
+	}
+/*end of what-we-do.html*/
+
+
+/*start of about-us.html*/
+	.main-background{
+		background-image: url(../images/background-md.png);
+		background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+/*end of about-us.html*/
+
+/*start of events.html*/
+	.event-content p{
+		font-size: 10px;
+	}
+
+/*end of events.html*/
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+  
+}
